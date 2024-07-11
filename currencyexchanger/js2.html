@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Input-box{
+        height: 20px;
+        Width:250px;
+        padding:2px;
+        margin:5px;
+        border: none;
+        box-shadow: 0px 0px 5px gray;
+        border-radius: 5px;
+    }
+    .btn{
+        height: 40px;
+        width:100px;
+        background-color: blueviolet;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+      margin: 5px;
+      color:white;
+    }
+    </style>
+<body>
+    <div>
+        <form>    
+            <h1 style="color:blueviolet">Registration</h1> 
+            <input type="text" placeholder="Enter Name" class="Input-box" id="name"/><br/>
+            <input type="Number" placeholder="Enter Age" class="Input-box" id="number"/><br/>
+            <input type="email" placeholder="Enter Mail" class="Input-box" id="email"/><br/>
+            <input type="password" placeholder="Enter password" class="Input-box" id="password"/>  <br/>
+            <input type="password" placeholder="Re-enter password" class="Input-box" id="repassword"/>  <br/>
+            <button class="btn" onclick="demo()">Register</button>
+           
+        </form>
+    </div>
+    <script>
+        function demo(){
+          var d=  document.querySelector("#name").value
+          var e=  document.querySelector("#number").value
+          var f=  document.querySelector("#email").value
+          var g=  document.querySelector("#password").value
+          var h=  document.querySelector("#repassword").value
+        
+          if(d == "" ||  e ==  "" || f =="" || g =="" ){ 
+            alert(" Please Fill Out All The fields");
+            
+        }
+
+           else{
+
+            if(g==h){
+                alert("You're  Registered")
+                
+        }
+          else{
+            alert("Password and re-enter password should be same")
+          }
+            
+           }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button>Click Me</button>
+</body>
+<script>
+    //object
+    let name={
+        firstName:"Palak",
+        lastName:"Bharti",
+
+    }
+    //function
+    let printFullName=function(state,city){
+    console.log(this.firstName+" "+ this.lastName +" from "+ state +","+ city)
+    }
+    printFullName.call(name,"UP","lucknow")
+    let name2={
+        firstName:"Sachin",
+        lastName:"Tendulkar"
+    }
+    printFullName.call(name2,"MP","Indore")
+    printFullName.apply(name2,["Mp","Indore"])
+    let printMyName=printFullName.bind(name2,"MP","Indore");
+    console.log(printMyName);
+    printMyName();
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">Hi this Palak</p>
+<button onclick="demo()">Click Me</button>
+<div id="div1">
+
+</div>
+<p id="p2"></p>
+</body>
+<script>
+    function demo(){
+   var x= document.querySelector("#div1")
+   x.style.backgroundImage="url('cat.jfif')"
+   x.style.height="100px"
+   x.style.width="100px"
+   x.style.backgroundSize="100%"
+    document.querySelector("#p1").innerHTML="Hi! I am from Lucknow"
+    var d= new Date();
+    document.querySelector("#p2").innerHTML=d
+    }
+</script>
+</html>

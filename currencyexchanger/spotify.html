@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+</head>
+<style>
+    .container-flex{
+        
+         
+         width:100%;
+    }
+.header{
+    max-height: 400px;
+    width:100%;
+    background-size:100%;
+    
+}
+.songs{
+    min-height: 200px;
+    width:100%;
+
+    background-color: gray;
+}
+.section{
+min-height: 50px;
+    width:100%;
+    background-color: white;
+    padding:10px;
+    box-sizing: border-box;
+}
+.sec1{
+    min-height: 50px;
+    width:25.5%;
+    background-color: white;
+    float: left;
+   margin:2px;
+   padding: 10px;
+   box-sizing: border-box;
+}
+.sec2{
+    min-height: 50px;
+    width:40%;
+    background-color: white;
+    float: left;
+   margin:2px;
+}
+.cir1{
+    min-height: 50px;
+    width:40%;
+    float: left;
+    background-color:white;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.cir2{
+    min-height: 50px;
+    width:10%;
+    float: left;
+    background-color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid white
+}
+.playlist{
+    min-height: 25px;
+    width:100%;
+}
+.song-name{
+    padding:10px;
+    text-align: left;
+    color:white;
+   font-size: large;
+}
+.rotate {
+  
+
+  transform: rotate(180deg);
+}
+</style>
+<body>
+    <div class="container-flex">
+    <div class="header">
+  <img src="song2.jpg" id="myImg" width="100%" height="400px"/>
+    </div>
+    <div class="section">
+    <div class="sec1"> 
+        <img src="shuffle2.png" onclick="repeatsong()" style="background-size: 100%; margin-left:200px;" height="30px" width="10%"/>
+    </div>
+    <div class="sec2">
+        <div class="cir1">
+            <img src="next-button-svgrepo-com.svg" onclick="demo2()" class="rotate" id="next1" style="background-size: 100%; margin-left:60px;" height="40px" width="25%"/>
+        </div>
+        <div class="cir2">
+        <img src="play-button.png" onclick="demo()" ondblclick="forpause()" id="play" style="background-size: 100%;" height="100%" width="100%"/>
+        </div>
+        <div class="cir1">
+            <img src="next-button-svgrepo-com.svg" onclick="demo3()" id="next2" style="background-size: 100%; margin-left:80px;" height="40px" width="25%"/>
+        </div>
+    </div>
+    <div class="sec1">
+        <img src="repeat.jpg" style="background-size: 100%; margin-left:100px;" height="30px" width="10%"/>
+
+    </div>
+    </div>
+    <br/>
+    <div  class="songs">
+        <div class="song-name">
+            Phir Kabhi
+        </div>
+        <audio id="song1" controls class="playlist">
+            <source  style="display: none;" src="Phir Kabhi (Slowed Reverb)_64(PagalWorld.com.sb).mp3" autoplay type="audio/ogg">
+            
+          Your browser does not support the audio element.
+          </audio>
+          <div class="song-name">
+            Suniya Suniya
+        </div>
+          <audio  id="song2" controls class="playlist">
+            <source  src="Suniya Suniya_64(PagalWorld.com.sb).mp3" controls autoplay type="audio/ogg">
+            
+          Your browser does not support the audio element.
+          </audio>
+          <div class="song-name">
+            Tauba Tauba
+        </div>
+          <audio controls id="song3" class="playlist">
+            <source  src="_Tauba Tauba_64(PagalWorld.com.sb).mp3" controls autoplay type="audio/ogg">
+            
+          Your browser does not support the audio element.
+          </audio>
+             </div>
+            
+    </div>
+</body>
+<script>
+    var currentAudio = null;
+    
+    function demo(){
+       
+        document.getElementById("myImg").src = "clear.jpg";
+     document.querySelector("#song1").play();
+     document.querySelector("#song2").pause();
+     document.querySelector("#song3").pause();
+     document.getElementById("play").src = "pause - Copy.jpg";
+    }
+    function demo2(){
+        document.getElementById("myImg").src = "song2img.jpg";
+        document.querySelector("#song2").play();
+         document.querySelector("#song1").pause();
+        document.querySelector("#song3").pause();
+        document.getElementById("play").src = "pause - Copy.jpg";
+        
+    }
+    function demo3(){
+        document.getElementById("myImg").src = "song3img.jpg";
+        document.querySelector("#song3").play();
+        var d= document.querySelector("#song1").pause();
+        document.querySelector("#song2").pause();
+        document.getElementById("play").src = "pause - Copy.jpg";
+    }
+    function forpause(){
+        document.querySelector("#song3").pause();
+        var d= document.querySelector("#song1").pause();
+        document.querySelector("#song2").pause();
+        document.getElementById("play").src = "play-button.png";
+        document.getElementById("myImg").src = "song2.jpg";
+    }
+   
+   </script>
+</html>
