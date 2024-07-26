@@ -1,0 +1,33 @@
+﻿@model IEnumerable<LibraryManagementSystem.Models.BorrowRecord>
+
+@{
+    ViewData["Title"] = "Borrow Records";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>User</th>
+            <th>Borrowed At</th>
+            <th>Returned At</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Book.Title</td>
+                <td>@item.User.UserName</td>
+                <td>@item.BorrowedAt</td>
+                <td>@item.ReturnedAt</td>
+                <td>
+                    <a asp-action="Return" asp-route-id="@item.Id" class="btn btn-secondary">Return</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
