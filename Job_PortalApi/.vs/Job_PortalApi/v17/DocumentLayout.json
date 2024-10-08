@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|c:\\users\\hp\\source\\repos\\job_portalapi\\job_portalapi\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|solutionrelative:job_portalapi\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|c:\\users\\hp\\source\\repos\\job_portalapi\\job_portalapi\\services\\jobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|solutionrelative:job_portalapi\\services\\jobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|c:\\users\\hp\\source\\repos\\job_portalapi\\job_portalapi\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|solutionrelative:job_portalapi\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|c:\\users\\hp\\source\\repos\\job_portalapi\\job_portalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|solutionrelative:job_portalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|c:\\users\\hp\\source\\repos\\job_portalapi\\job_portalapi\\services\\ijobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01114D99-E0A2-4F7A-9436-0C157C3AB0C7}|Job_PortalApi\\Job_PortalApi.csproj|solutionrelative:job_portalapi\\services\\ijobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Program.cs",
+              "RelativeDocumentMoniker": "Job_PortalApi\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Program.cs",
+              "RelativeToolTip": "Job_PortalApi\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:41:06.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IJobServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Services\\IJobServices.cs",
+              "RelativeDocumentMoniker": "Job_PortalApi\\Services\\IJobServices.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Services\\IJobServices.cs",
+              "RelativeToolTip": "Job_PortalApi\\Services\\IJobServices.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:55:40.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Services\\JobServices.cs",
+              "RelativeDocumentMoniker": "Job_PortalApi\\Services\\JobServices.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Services\\JobServices.cs",
+              "RelativeToolTip": "Job_PortalApi\\Services\\JobServices.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:55:14.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "Job_PortalApi\\Controllers\\JobController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Controllers\\JobController.cs",
+              "RelativeToolTip": "Job_PortalApi\\Controllers\\JobController.cs",
+              "ViewState": "AQIAAH8AAACA/v////8PwIMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:18:43.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Job_PortalApi\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Job_PortalApi\\Job_PortalApi\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Job_PortalApi\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAJgAAACAmZmZmZkVwJ0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T13:17:06.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
